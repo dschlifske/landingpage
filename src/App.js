@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <img src={logo} alt="Ancala Health"  />
         <p>
           Click <code>Login</code> to get started.
@@ -13,7 +12,6 @@ function App() {
         <a
           className="App-link"
           href="https://master.d9tjbwapov1ny.amplifyapp.com/"
-          target="_blank"
           rel="noopener noreferrer"
         >
           Login
