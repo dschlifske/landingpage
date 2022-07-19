@@ -1,21 +1,22 @@
-import logo from './logo.svg';
+import logo from './ancala health logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/*<img src={logo} className="App-logo" alt="logo" />*/}
+        <img src={logo} alt="Ancala Health"  />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Click <code>Login</code> to get started.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://master.d9tjbwapov1ny.amplifyapp.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Login
         </a>
       </header>
     </div>
